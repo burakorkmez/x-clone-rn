@@ -2,7 +2,8 @@ import asyncHandler from "express-async-handler";
 import { getAuth } from "@clerk/express";
 import Comment from "../models/comment.model.js";
 import Post from "../models/post.model.js";
-+import mongoose from "mongoose";
+import mongoose from "mongoose";
+
 import User from "../models/user.model.js";
 import Notification from "../models/notification.model.js";
 
