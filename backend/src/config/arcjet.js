@@ -22,9 +22,9 @@ export const aj = arcjet({
     // rate limiting with token bucket algorithm
     tokenBucket({
       mode: "LIVE",
-      refillRate: 10, // tokens added per interval
+      refillRate: 20, // tokens added per interval
       interval: 10, // interval in seconds (10 seconds)
-      capacity: 15, // maximum tokens in bucket
+      capacity: 30, // maximum tokens in bucket
     }),
   ],
 });
